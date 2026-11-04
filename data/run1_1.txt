@@ -1,0 +1,19 @@
+----- RESULTS maxWait=20 ms -----
+Produced:   650
+Completed:  78
+Expired:    572
+Max queue:  4
+Total time: 10485 ms
+Avg wait (completed): 15.72 ms
+Invariant check: completed+expired <= produced : OK
+========================================
+
+----- RESULTS maxWait=100 ms -----
+Produced:   650
+Completed:  251
+Expired:    399
+Max queue:  9
+Total time: 10610 ms
+Avg wait (completed): 79.56 ms
+Invariant check: completed+expired <= produced : OK
+========================================
